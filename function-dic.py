@@ -24,3 +24,11 @@ def deleteItem(key):
 deleteItem("key1")
 print(dictionary)
 
+# Aufgabe 3d
+
+def printKeys():
+    for key in dictionary.keys():
+        print(key)
+
+printKeys()
+
