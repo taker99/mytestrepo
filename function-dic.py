@@ -16,3 +16,11 @@ def valueIsEqual(key, value):
 
 print(valueIsEqual("key1", "value1"))
 
+# Aufgabe 3c
+
+def deleteItem(key):
+    del dictionary[key]
+
+deleteItem("key1")
+print(dictionary)
+
