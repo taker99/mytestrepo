@@ -9,3 +9,10 @@ def printValue(key):
 
 printValue("key1")
 
+# Aufgabe 3b
+
+def valueIsEqual(key, value):
+    return dictionary[key] == value
+
+print(valueIsEqual("key1", "value1"))
+
