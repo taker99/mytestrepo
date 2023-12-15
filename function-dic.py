@@ -32,3 +32,10 @@ def printKeys():
 
 printKeys()
 
+# Aufgabe 3e
+
+def printValues():
+    for value in dictionary.values():
+        print(value)
+
+printValues()
